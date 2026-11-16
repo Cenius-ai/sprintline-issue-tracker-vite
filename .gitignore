@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+backend/.venv/
+
+# App databases (created and seeded on boot)
+backend/*.db
+backend/*.db-wal
+backend/*.db-shm
+*.db
+
+# Node
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+
+# Local environment files (the examples are committed)
+.env
+backend/.env
+frontend/.env
